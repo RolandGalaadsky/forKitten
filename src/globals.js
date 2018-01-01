@@ -5,4 +5,4 @@ let TREEHEIGHT = 25;
 let all = document.getElementById("bd");
 let tree = document.getElementById("tree");
 if (windowHeight < 800)
-	TREEHEIGHT = 20;
+	TREEHEIGHT = 10;
