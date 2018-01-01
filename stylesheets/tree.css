@@ -73,8 +73,12 @@ img
 		width: 70px;
 		height: 70px;
 	}
+	#tree
+	{
+		left: 39%;
+	}
 	p
 	{
-		font-size: 10px;
+		font-size: 14px;
 	}
 }
