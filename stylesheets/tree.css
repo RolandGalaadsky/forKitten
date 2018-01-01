@@ -1,10 +1,14 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
 body 
 {
 	font-size: 18px;
 	color: green;
 	background: black;
-	height: 100%;
 	padding: 0;
+	margin: 0;
 }
 h1 
 {
@@ -15,6 +19,32 @@ h1
 audio
 {
 	display: none;
+}
+img 
+{
+	position: relative;	
+	left: 50%;
+	width: 100px;
+}
+p 
+{
+	display: block;
+	margin: 0 auto;
+	color: purple;
+	font-size: 0.99em;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+footer
+{
+	position: absolute;
+	bottom: 0;
+	height: 20%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	background: white;
 }
 .snowball
 {
@@ -31,31 +61,4 @@ audio
 {
 	width: 220px;
 	margin: 0 auto;
-}
-img 
-{
-	position: relative;
-	left: 50%;
-	width: 100px;
-}
-p 
-{
-	display: block;
-	margin: auto;
-	color: purple;
-	font-size: 1.5em;
-	font-family: "Lucida Console", Monaco, monospace;
-}
-footer
-{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 20%;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	border-top-left-radius: 60%;
-	border-top-right-radius: 60%;
-	background: white;
 }
