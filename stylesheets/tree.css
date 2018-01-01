@@ -20,28 +20,33 @@ audio
 {
 	display: none;
 }
-img 
-{
-	position: relative;	
-	left: 50%;
-	width: 100px;
-}
-p 
-{
-	display: block;
-	margin: 0 auto;
-	color: purple;
-	font-size: 0.99em;
-	font-family: "Lucida Console", Monaco, monospace;
-}
 footer
 {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	border-top-left-radius: 60%;
-	border-top-right-radius: 60%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	height: 60px;
 	background: white;
+	width: 100%;
+}
+p
+{
+	left: 2%;
+	position: absolute;
+	bottom: 0;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	color: blue;
+}
+img 
+{
+	position: absolute;
+	bottom: 0;
+	margin-left: 50%;
+	padding: 0;
+	width: 100px;
+	height: 100px;
 }
 .snowball
 {
@@ -56,6 +61,20 @@ footer
 }
 #tree
 {
-	width: 220px;
-	margin: 0 auto;
+	position: absolute;
+	bottom: 60px;
+	left: 42%;
+}
+
+@media(max-width: 400px)
+{
+	img
+	{
+		width: 70px;
+		height: 70px;
+	}
+	p
+	{
+		font-size: 15px;
+	}
 }
