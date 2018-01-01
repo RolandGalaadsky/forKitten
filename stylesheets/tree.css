@@ -59,11 +59,3 @@ footer
 	width: 220px;
 	margin: 0 auto;
 }
-
-@media (max-width: 1400px)
-{
-	footer
-	{
-		height: 17%;
-	}
-}
