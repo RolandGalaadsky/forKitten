@@ -47,4 +47,4 @@ function letItSnow()
 }
 
 letItSnow();
-setInterval(letItSnow, 25000);
+setInterval(letItSnow, 17000);

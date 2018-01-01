@@ -1,6 +1,7 @@
 html {
     position: relative;
     min-height: 100%;
+    overflow: hidden;
 }
 body 
 {
@@ -39,15 +40,6 @@ p
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	color: blue;
 }
-img 
-{
-	position: absolute;
-	bottom: 0;
-	margin-left: 50%;
-	padding: 0;
-	width: 100px;
-	height: 100px;
-}
 .snowball
 {
 	position: absolute;
@@ -56,7 +48,7 @@ img
 }
 #star 
 {
-	color: brown;
+	color: yellow;
 	font-size: 1.8em;
 }
 #tree
@@ -65,13 +57,43 @@ img
 	bottom: 60px;
 	left: 42%;
 }
-
+#cat_container
+{
+	position: absolute;
+	margin: 0 50%;
+	padding: 0;
+	bottom: 0;
+	width: 130px;
+}
+#cat
+{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#tail
+{
+	margin-left: -16px;
+	margin-top: 45px;
+	height: 40px;
+	width: 20px;
+	transform-origin: 30% 75%;
+}
 @media(max-width: 400px)
 {
-	img
+	#cat
 	{
 		width: 70px;
 		height: 70px;
+	}
+	#tail
+	{
+		margin-top: 30px;
+		margin-left: -11px;	
+		width: 14px;
+		height: 28px;
 	}
 	#tree
 	{
