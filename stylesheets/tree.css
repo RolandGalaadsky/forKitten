@@ -70,10 +70,3 @@ footer
 		height: 17%;
 	}
 }
-@media (max-width: 300px)
-{
-	footer 
-	{
-		height: 13%;
-	}	
-}
