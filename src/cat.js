@@ -6,7 +6,7 @@ let count = 0;
 cat.onclick = (event) => 
 {
 	moveTail();
-	let catInterval = setInterval(moveTail,1000);
+	let catInterval = setInterval(moveTail,625);
 	function moveTail()
 	{
 		direction *= -1;
