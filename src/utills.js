@@ -8,18 +8,9 @@ function randomInt(max, min)
 	return (Math.floor(random(max, min)));
 }
 
-function randomColor()
+function randomColor(colors)
 {
-	const COLORS = ['red', 'green', 'blue', 'darkblue', 'purple', 'violet', 'maroon']
-	return (COLORS[randomInt(COLORS.length, 0)]);
-}
-
-function addSpaces(max, i)
-{
-	for (let k = max - i; k > 0; k--)
-	{
-		tree.innerHTML += '\u00A0';
-	}
+	return (colors[randomInt(colors.length, 0)]);
 }
 
 function outCondition(topPos, windowHeight, leftPos, windowWidth)
