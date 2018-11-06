@@ -6,6 +6,7 @@ let all = document.getElementById("bd");
 let tree = document.getElementById("tree");
 let tail = document.getElementById("tail");
 let cat = document.getElementById("cat_container");
-document.getElementById("music").play();
+let music = document.getElementById("music");
+music..play();
 if (windowHeight < 596)
 	TREEHEIGHT = 10;
