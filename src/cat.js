@@ -5,6 +5,7 @@ let flag = false;
 
 cat.onclick = (event) => 
 {
+	music.play();
 	if (!flag)
 	{
 		flag = true;
